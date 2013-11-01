@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Entity.cs" />
     <Compile Include="EntityManager.cs" />
+    <Compile Include="Maybe.cs" />
     <Compile Include="SystemsRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemBase.cs" />
