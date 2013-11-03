@@ -39,6 +39,11 @@
 			return value;
 		}
 
+		public static Maybe<R> Bind<T, R>(this Maybe<T> value, Func<T, R> func)
+		{
+			return value.HasValue ? func(value.Value) : Maybe<R>.Nothing;
+		}
+
 		public static Maybe<R> Select<T, R>(this T value, Func<T, Maybe<R>> func)
 		{
 			Maybe<T> maybe = value;
@@ -58,7 +63,9 @@
 
 		public static Maybe<V> SelectMany<T, U, V>(this Maybe<T> maybe, Func<T, Maybe<U>> k, Func<T, U, V> s)
 		{
-			return maybe.SelectMany(x => k(x), s);
+			if (maybe.HasValue == false) return Maybe<V>.Nothing;
+			var maybeU = k(maybe.Value);
+			return maybeU.HasValue ? s(maybe.Value, maybeU.Value) : Maybe<V>.Nothing;
 		}
 	}
 }
