@@ -63,6 +63,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityManagerTests.cs" />
+    <Compile Include="EventManagement\EventManagerTests.cs" />
+    <Compile Include="EventManagement\HandlerRegistrarTests.cs" />
+    <Compile Include="EventManagement\QueueManagerTests.cs" />
     <Compile Include="SystemManagerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

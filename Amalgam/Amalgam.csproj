@@ -41,6 +41,9 @@
   <ItemGroup>
     <Compile Include="Entity.cs" />
     <Compile Include="EntityManager.cs" />
+    <Compile Include="EventManagement\EventManager.cs" />
+    <Compile Include="EventManagement\QueueManager.cs" />
+    <Compile Include="EventManagement\HandlerRegistrar.cs" />
     <Compile Include="ExceptionExtensions.cs" />
     <Compile Include="Maybe.cs" />
     <Compile Include="SystemsRunner.cs" />
