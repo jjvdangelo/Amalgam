@@ -1,8 +1,8 @@
-﻿namespace Amalgam.Tests
+﻿namespace Amalgam.Systems
 {
 	using System;
 	using System.Collections.Generic;
-	using Amalgam.Systems;
+	using Amalgam.Entities;
 	using NUnit.Framework;
 	using Should;
 	using SpecsFor;

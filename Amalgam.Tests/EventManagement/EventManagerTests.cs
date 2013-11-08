@@ -1,7 +1,6 @@
-﻿namespace Amalgam.Tests.EventManagement
+﻿namespace Amalgam.EventManagement
 {
 	using System;
-	using Amalgam.EventManagement;
 	using NUnit.Framework;
 
 	public class EventManagerTests

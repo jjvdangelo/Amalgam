@@ -1,6 +1,5 @@
-﻿namespace Amalgam.Tests.EventManagement
+﻿namespace Amalgam.EventManagement
 {
-	using Amalgam.EventManagement;
 	using NUnit.Framework;
 	using Should;
 	using SpecsFor;

@@ -1,5 +1,7 @@
 ﻿namespace Amalgam.Systems
 {
+	using Amalgam.Entities;
+
 	public abstract class SystemBase
 	{
 		private readonly EntityManager _manager;

@@ -7,7 +7,7 @@
     <ProjectGuid>{F0ACB095-0257-4F4D-8C3C-426DB1835551}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Amalgam.Tests</RootNamespace>
+    <RootNamespace>Amalgam</RootNamespace>
     <AssemblyName>Amalgam.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

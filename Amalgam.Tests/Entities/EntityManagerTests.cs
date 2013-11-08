@@ -1,6 +1,5 @@
-﻿namespace Amalgam.Tests
+﻿namespace Amalgam.Entities
 {
-	using Amalgam.Entities;
 	using NUnit.Framework;
 	using Should;
 	using SpecsFor;
