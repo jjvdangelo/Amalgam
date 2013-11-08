@@ -2,6 +2,7 @@
 {
 	using System;
 	using System.Collections.Generic;
+	using Amalgam.Systems;
 	using NUnit.Framework;
 	using Should;
 	using SpecsFor;

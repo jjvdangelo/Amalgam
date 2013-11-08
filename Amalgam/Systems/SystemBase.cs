@@ -1,4 +1,4 @@
-﻿namespace Amalgam
+﻿namespace Amalgam.Systems
 {
 	public abstract class SystemBase
 	{

@@ -1,4 +1,4 @@
-﻿namespace Amalgam
+﻿namespace Amalgam.Systems
 {
 	using System;
 	using System.Linq;
