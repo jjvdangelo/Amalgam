@@ -62,7 +62,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EntityManagerTests.cs" />
+    <Compile Include="Entities\EntityManagerTests.cs" />
     <Compile Include="EventManagement\EventManagerTests.cs" />
     <Compile Include="EventManagement\HandlerRegistrarTests.cs" />
     <Compile Include="EventManagement\QueueManagerTests.cs" />

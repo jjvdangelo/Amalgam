@@ -1,4 +1,4 @@
-﻿namespace Amalgam
+﻿namespace Amalgam.Entities
 {
 	using System;
 	using System.Globalization;

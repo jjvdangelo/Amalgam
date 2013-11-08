@@ -39,8 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity.cs" />
-    <Compile Include="EntityManager.cs" />
+    <Compile Include="Entities\Entity.cs" />
+    <Compile Include="Entities\EntityManager.cs" />
     <Compile Include="EventManagement\EventManager.cs" />
     <Compile Include="EventManagement\EventManagerExtensions.cs" />
     <Compile Include="EventManagement\QueueManager.cs" />
